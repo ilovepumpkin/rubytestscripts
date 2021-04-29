@@ -11,13 +11,13 @@ require 'yaml'
 BUILD_FILE='last_build.txt'
 build_orig=""
 last_build=""
-index_page='https://rtpmsa.raleigh.ibm.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/'
+index_page='https://rtpmsa.raleigh.jcn.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/'
 
 if File.exists? BUILD_FILE
   last_build=open(BUILD_FILE) {|f| YAML.load(f) }
 end
 
-https=Net::HTTP.new('rtpmsa.raleigh.ibm.com', 443)
+https=Net::HTTP.new('rtpmsa.raleigh.jcn.com', 443)
 https.use_ssl = true
 https.start do |http|
       get = Net::HTTP::Get.new(index_page)
@@ -45,13 +45,13 @@ class Report
   
   def get_report
     build_temp=@build.gsub(/\s/,'%20')
-    link_summary="https://rtpmsa.raleigh.ibm.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/overview-summary.html"
-    link_index="https://rtpmsa.raleigh.ibm.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/index.html"
-    link_alltests="https://rtpmsa.raleigh.ibm.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/all-tests.html"
-    link_fails="https://rtpmsa.raleigh.ibm.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/alltests-fails.html"
-    link_errors="https://rtpmsa.raleigh.ibm.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/alltests-errors.html"
+    link_summary="https://rtpmsa.raleigh.jcn.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/overview-summary.html"
+    link_index="https://rtpmsa.raleigh.jcn.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/index.html"
+    link_alltests="https://rtpmsa.raleigh.jcn.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/all-tests.html"
+    link_fails="https://rtpmsa.raleigh.jcn.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/alltests-fails.html"
+    link_errors="https://rtpmsa.raleigh.jcn.com/msa/.projects/p1/lotusmashups/public/current/builds/daily/#{build_temp}/reports/#{@report_type}/html/alltests-errors.html"
 
-    https=Net::HTTP.new('rtpmsa.raleigh.ibm.com', 443)
+    https=Net::HTTP.new('rtpmsa.raleigh.jcn.com', 443)
     https.use_ssl = true
     https.start do |http|
               get2 = Net::HTTP::Get.new(link_summary)
@@ -114,9 +114,9 @@ File.open('email_content.html','w'){|f|
 mail=MailFactory.new 
 mail.encoding="UTF-8" 
 
-from_email='comitium@us.ibm.com'
-#~ to_emails=['shenrui@cn.ibm.com','scottchapman@us.ibm.com']
-#~ to_emails=['shenrui@cn.ibm.com']
+from_email='comitium@us.jcn.com'
+#~ to_emails=['xxx@yyy.com','scottchapman@us.jcn.com']
+#~ to_emails=['xxx@yyy.com']
 
 mail.to=[to_emails].join(',')
 mail.subject="Unit Test Results Summary (build# #{build_orig})"

@@ -3,7 +3,7 @@ require 'net/https'
 require 'iconv'
 require 'ftools'
 
-$username='shenrui@cn.ibm.com'
+$username='xxx@yyy.com'
 $password='turp5n9v'
 
 def update_file file_path,value_hash
@@ -44,16 +44,16 @@ def update_file file_path,value_hash
   end
   
 def get_bug_data queryUrl
-	https=Net::HTTP.new('nsjazz.raleigh.ibm.com', 8002)
+	https=Net::HTTP.new('nsjazz.raleigh.jcn.com', 8002)
     https.use_ssl = true
     res = https.start do |http|
       
       #make the initial get to get the JSESSION cookie
-      get = Net::HTTP::Get.new("https://nsjazz.raleigh.ibm.com:8002/jazz/web")
+      get = Net::HTTP::Get.new("https://nsjazz.raleigh.jcn.com:8002/jazz/web")
       response = http.request(get)
       
       #authorize
-      post = Net::HTTP::Post.new('https://nsjazz.raleigh.ibm.com:8002/jazz/j_security_check')
+      post = Net::HTTP::Post.new('https://nsjazz.raleigh.jcn.com:8002/jazz/j_security_check')
       post.set_form_data({'j_username'=>$username, 'j_password'=>$password})
       #~ post['Cookie'] = cookie
       response=http.request(post)

@@ -1,4 +1,4 @@
-shenrui@cn.ibm.com
-scottchapman@us.ibm.com
-stephan.hesmer@de.ibm.com
+xxx@yyy.com
+scottchapman@us.jcn.com
+stephan.hesmer@de.jcn.com
 

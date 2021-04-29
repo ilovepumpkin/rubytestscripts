@@ -1,9 +1,9 @@
 require 'common'
 
 file_path="mmfvt_defect_backlog.csv"
-fix_url='https://nsjazz.raleigh.ibm.com:8002/jazz/resource/itemOid/com.ibm.team.workitem.query.QueryDescriptor/_zFzM0OYyEd25X9DZJXTRrg?_mediaType=text/csv'
-resolved_url='https://nsjazz.raleigh.ibm.com:8002/jazz/resource/itemOid/com.ibm.team.workitem.query.QueryDescriptor/_UMCV0OafEd25X9DZJXTRrg?_mediaType=text/csv'
-closed_url='https://nsjazz.raleigh.ibm.com:8002/jazz/resource/itemOid/com.ibm.team.workitem.query.QueryDescriptor/__KajAP2QEd2qDbjv0e_uJQ?_mediaType=text/csv'
+fix_url='https://nsjazz.raleigh.jcn.com:8002/jazz/resource/itemOid/com.jcn.team.workitem.query.QueryDescriptor/_zFzM0OYyEd25X9DZJXTRrg?_mediaType=text/csv'
+resolved_url='https://nsjazz.raleigh.jcn.com:8002/jazz/resource/itemOid/com.jcn.team.workitem.query.QueryDescriptor/_UMCV0OafEd25X9DZJXTRrg?_mediaType=text/csv'
+closed_url='https://nsjazz.raleigh.jcn.com:8002/jazz/resource/itemOid/com.jcn.team.workitem.query.QueryDescriptor/__KajAP2QEd2qDbjv0e_uJQ?_mediaType=text/csv'
 
 fix_count=get_bug_count(fix_url)
 resolved_count=get_bug_count(resolved_url)

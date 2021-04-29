@@ -9,7 +9,7 @@ require 'mailfactory'
 require 'net/smtp'
 require 'date'
 
-$username='shenrui@cn.ibm.com'
+$username='xxx@yyy.com'
 $password='turp5n9v'
 
 RECEIVER_OWNER='owner'
@@ -113,7 +113,7 @@ class BugNotifier
       @email_fetcher.save
       
       if debug==true
-          @to_emails=['shenrui@cn.ibm.com']
+          @to_emails=['xxx@yyy.com']
       end        
       
       File.open('email_content.html','w'){|f|
@@ -121,7 +121,7 @@ class BugNotifier
       }
       
       if @bug_list.length>0
-          EmailUtil.send @subject,html_content,'shenrui@cn.ibm.com',@to_emails
+          EmailUtil.send @subject,html_content,'xxx@yyy.com',@to_emails
       end
   end
 end
@@ -159,7 +159,7 @@ class Bug
       if receiver_type==RECEIVER_OWNER
           bg_color="yellow" if self.age>=LONG_AGE
       end
-      tr_html="<tr style='background-color:#{bg_color}'><td><a href='https://nsjazz.raleigh.ibm.com:8002/jazz/web/projects/Mashup%20Center#action=com.ibm.team.workitem.viewWorkItem&id=#{id}' target='_blank'>#{id}</a></td><td>#{summary}</td><td>#{status}</td><td>#{severity}</td><td>#{priority}</td><td>#{owned_by}</td><td>#{creator}</td><td>#{create_date_html}</td><td>#{age}</td><td>#{due_date_html}</td></tr>"
+      tr_html="<tr style='background-color:#{bg_color}'><td><a href='https://nsjazz.raleigh.jcn.com:8002/jazz/web/projects/Mashup%20Center#action=com.jcn.team.workitem.viewWorkItem&id=#{id}' target='_blank'>#{id}</a></td><td>#{summary}</td><td>#{status}</td><td>#{severity}</td><td>#{priority}</td><td>#{owned_by}</td><td>#{creator}</td><td>#{create_date_html}</td><td>#{age}</td><td>#{due_date_html}</td></tr>"
   end
 end
 
@@ -188,17 +188,17 @@ class EmailFetcher
   def get_email_fromjazz user_name
     #~ p "...get user email from jazz server..."
     encoded_user_name=user_name.gsub(/ /,'%20')
-    user_query="https://nsjazz.raleigh.ibm.com:8002/jazz/service/com.ibm.team.process.internal.common.service.IProcessRestService/contributors?sortBy=name&searchTerm=#{encoded_user_name}&searchField=name&pageSize=250&hideAdminGuest=false&hideUnassigned=true&hideArchivedUsers=true&pageNum=0"
+    user_query="https://nsjazz.raleigh.jcn.com:8002/jazz/service/com.jcn.team.process.internal.common.service.IProcessRestService/contributors?sortBy=name&searchTerm=#{encoded_user_name}&searchField=name&pageSize=250&hideAdminGuest=false&hideUnassigned=true&hideArchivedUsers=true&pageNum=0"
     #~ p user_query
-    https=Net::HTTP.new('nsjazz.raleigh.ibm.com', 8002)
+    https=Net::HTTP.new('nsjazz.raleigh.jcn.com', 8002)
     https.use_ssl = true
     res = https.start do |http|
       #make the initial get to get the JSESSION cookie
-      get = Net::HTTP::Get.new("https://nsjazz.raleigh.ibm.com:8002/jazz/web")
+      get = Net::HTTP::Get.new("https://nsjazz.raleigh.jcn.com:8002/jazz/web")
       response = http.request(get)
       
       #authorize
-      post = Net::HTTP::Post.new('https://nsjazz.raleigh.ibm.com:8002/jazz/j_security_check')
+      post = Net::HTTP::Post.new('https://nsjazz.raleigh.jcn.com:8002/jazz/j_security_check')
       post.set_form_data({'j_username'=>$username, 'j_password'=>$password})
       #~ post['Cookie'] = cookie
       response=http.request(post)
@@ -250,16 +250,16 @@ end
 
   
 def get_bug_data queryUrl
-	https=Net::HTTP.new('nsjazz.raleigh.ibm.com', 8002)
+	https=Net::HTTP.new('nsjazz.raleigh.jcn.com', 8002)
     https.use_ssl = true
     res = https.start do |http|
       
       #make the initial get to get the JSESSION cookie
-      get = Net::HTTP::Get.new("https://nsjazz.raleigh.ibm.com:8002/jazz/web")
+      get = Net::HTTP::Get.new("https://nsjazz.raleigh.jcn.com:8002/jazz/web")
       response = http.request(get)
       
       #authorize
-      post = Net::HTTP::Post.new('https://nsjazz.raleigh.ibm.com:8002/jazz/j_security_check')
+      post = Net::HTTP::Post.new('https://nsjazz.raleigh.jcn.com:8002/jazz/j_security_check')
       post.set_form_data({'j_username'=>$username, 'j_password'=>$password})
       #~ post['Cookie'] = cookie
       response=http.request(post)

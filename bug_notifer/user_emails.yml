@@ -1,135 +1,135 @@
---- 
-Craig Salter: csalter@ca.ibm.com
-Anna G. O'Neal: agoneal@us.ibm.com
-Adam R. Cook: cooka@us.ibm.com
-Travis Smith: travis2@us.ibm.com
-Tylerwal: tylerwal@us.ibm.com
-Yong Gang Duan: duanyg@cn.ibm.com
-Erika Zimmermann: erikaz@ca.ibm.com
-Marie E. Knight: mknight@us.ibm.com
-Ting Huang: htcdl@cn.ibm.com
-Kai Feng Zhang: yaoliyl@cn.ibm.com
-Jie Liu: jiecdll@cn.ibm.com
-Shu Liu: liushuls@cn.ibm.com
-Julie Ks Ho: hoks@tw.ibm.com
-Stefan Koch: STEFKOCH@de.ibm.com
-Patrick Cox: phcox@us.ibm.com
-Joel A. Farrell: joelf@us.ibm.com
-Kai An: ankai@cn.ibm.com
-Song Wei Shan: shansw@cn.ibm.com
-Jing Jing Hu: hujj@cn.ibm.com
-Sheng Tian: tiansh@cn.ibm.com
-Samuel A. Mcintyre: mcintyre@us.ibm.com
-Hai Bin Dai: daihb@cn.ibm.com
-Davis Neable: davisneable@ca.ibm.com
-Xiu Yi Du: xiuyidu@cn.ibm.com
-Dong Wang: wdbjcdl@cn.ibm.com
-Terry LM Chang: lmterry@tw.ibm.com
-Xiao Hui XH Zhang: zxiaohui@cn.ibm.com
-Mike Erickson: emike@ca.ibm.com
-Dale Mervyn: djmervyn@ca.ibm.com
-Poon Kwan Leung: pkleung@ca.ibm.com
-Erika Ferguson: efergus@ca.ibm.com
-Jin Jun Su: sujj@cn.ibm.com
-Louis S. Mau: louismau@us.ibm.com
-Zheng Bi: bizheng@cn.ibm.com
-Caroline Daughtrey: cdaughtr@us.ibm.com
-Da Wei Wang: wangdaw@cn.ibm.com
-Adam R. Clarke: arclarke@us.ibm.com
-Jun Tao Liu: liujunt@cn.ibm.com
-Stephan Hesmer: stephan.hesmer@de.ibm.com
-Thomas Chou: choukl@tw.ibm.com
-Kris Vishwanathan: v2kris@us.ibm.com
-Yu Qiang Yang: yuqiangy@cn.ibm.com
-JENNIFER E. KING: king@us.ibm.com
-Jonathan J. Lidaka: jjlidaka@us.ibm.com
-Prasad Kashyap: pkashyap@us.ibm.com
-David Winter: DAWINTER@de.ibm.com
-Yu SHCDL Zhou: zshcdl@cn.ibm.com
-PHYLLIS KEANE: keanep@us.ibm.com
-Jingkang: jingkang@cn.ibm.com
-ROBERT S. BROOKS: rsbrooks@us.ibm.com
-Qiao Yun Sun: sunqy@cn.ibm.com
-Joscha Feth: joscha.feth@de.ibm.com
-Jing Liu: shliuj@cn.ibm.com
-Dong D. Chen: yanma@cn.ibm.com
-Da Guang Zhu: zhudg@cn.ibm.com
-Howard S. Krovetz: hkrovetz@us.ibm.com
-Richard Johnson: rj1@us.ibm.com
-Juergen Schaeck: JSCHAECK@de.ibm.com
-Jing Kj Kang: jingkang@cn.ibm.com
-JONATHAN J. LIDAKA: jjlidaka@us.ibm.com
-Chris Collins: dchrisc@us.ibm.com
-Jing KJ Kang: jingkang@cn.ibm.com
-Joscha Falc Feth: joscha.feth@de.ibm.com
-Xue Feng Han: zshcdl@cn.ibm.com
-Rajesh A. Kartha: kartha@us.ibm.com
-Mark D. Gilmore: mgilmore@us.ibm.com
-Li Yao: yaoliyl@cn.ibm.com
-Michael Burati: mburati@us.ibm.com
-Tian E. Yang: yangte@cn.ibm.com
-Jun Wang: wjwangj@cn.ibm.com
-Spike Chang: spikec@tw.ibm.com
-Ramiah Tin: rtin@ca.ibm.com
-Yan Fang Huang: yanfangh@cn.ibm.com
-Colin Kennedy: KENNEDYC@ie.ibm.com
-Andrej Doba: andrejdoba@ie.ibm.com
-Ingo Schuster: Ingo.Schuster@de.ibm.com
-Scott Chapman: scottchapman@us.ibm.com
-Ya Juan Yang: yajuany@cn.ibm.com
-Yan Ma: yanma@cn.ibm.com
-David Osofsky: david_osofsky@us.ibm.com
-Jon M. Harris: jmharris@us.ibm.com
-Peng Yu Zhang: zhangpy@cn.ibm.com
-Charles M. Seaman: seaman@us.ibm.com
-Tong L. Li: litong01@us.ibm.com
-Anna G. O'neal: agoneal@us.ibm.com
-Yu Shcdl Zhou: zshcdl@cn.ibm.com
-Laura L. Pomerleau: llpomerl@us.ibm.com
-Stefan Behl: stefan.behl@de.ibm.com
-ADAM R. COOK: cooka@us.ibm.com
-Chiusm: chiusm@us.ibm.com
-Jia Feng: jiafeng@cn.ibm.com
-Jennifer E. King: king@us.ibm.com
-Zheng Sd Wang: wangzsd@cn.ibm.com
-Nicole Carrier: ncarrier@us.ibm.com
-Xiao Feng Liu: liuxiaof@cn.ibm.com
-Ming Xue: xueming@cn.ibm.com
-Jmharris: jmharris@us.ibm.com
-Scott M. Consolatti: sconso@us.ibm.com
-Rui Shen: shenrui@cn.ibm.com
-Fu Cheng: chengfbj@cn.ibm.com
-Andree Proulx: aiproulx@ca.ibm.com
-Li Xu: lixu@us.ibm.com
-Ye Huo: yaoliyl@cn.ibm.com
-Kartha: kartha@us.ibm.com
-Lei Yu: yullei@cn.ibm.com
-Terry Lm Chang: lmterry@tw.ibm.com
-Xia Liu: liuxiabj@cn.ibm.com
-Xiao Hui Xh Zhang: zxiaohui@cn.ibm.com
-Wei Shi: shiwcsdl@cn.ibm.com
-Tian E Yang: yangte@cn.ibm.com
-Ya Wen Zhao: zhaoyaw@cn.ibm.com
-Hong Bing Zhang: zhbing@cn.ibm.com
-FENIL SHAH: fenils@us.ibm.com
-Kevin Bergin: BERGINKE@ie.ibm.com
-Christoph Denninger: CDENNING@de.ibm.com
-KEVIN J. SMITH: smithkj@us.ibm.com
-Joel B. Allen: allenbj@us.ibm.com
-Eric Fu: ericfu@ca.ibm.com
-John P. Kelsey: pkelsey@us.ibm.com
-Daniel Schulz: Daniel.Schulz@de.ibm.com
-Zi He Jia: jiazihe@cn.ibm.com
-John J. Boezeman: boezeman@us.ibm.com
-Jeffrey R. Hoy: jeffhoy@us.ibm.com
-Konrad Kolosowski: konradk@ca.ibm.com
-Yu Fu: fuyush@cn.ibm.com
-Ryan E. Smith: rysmith@us.ibm.com
-Oliver Rau: oliver.rau@de.ibm.com
-Xiang Wu: xwucdl@cn.ibm.com
-Cale Vardy: cvardy@ca.ibm.com
-Suet M. Chiu: chiusm@us.ibm.com
-Louismau: louismau@us.ibm.com
-Murali M Duvvuru: murali.duvvuru@in.ibm.com
-Travis2: travis2@us.ibm.com
-Scott Johnson: scottjoh@us.ibm.com
+---
+Craig Salter: csalter@ca.jcn.com
+Anna G. O'Neal: agoneal@us.jcn.com
+Adam R. Cook: cooka@us.jcn.com
+Travis Smith: travis2@us.jcn.com
+Tylerwal: tylerwal@us.jcn.com
+Yong Gang Duan: duanyg@yyy.com
+Erika Zimmermann: erikaz@ca.jcn.com
+Marie E. Knight: mknight@us.jcn.com
+Ting Huang: htcdl@yyy.com
+Kai Feng Zhang: yaoliyl@yyy.com
+Jie Liu: jiecdll@yyy.com
+Shu Liu: liushuls@yyy.com
+Julie Ks Ho: hoks@tw.jcn.com
+Stefan Koch: STEFKOCH@de.jcn.com
+Patrick Cox: phcox@us.jcn.com
+Joel A. Farrell: joelf@us.jcn.com
+Kai An: ankai@yyy.com
+Song Wei Shan: shansw@yyy.com
+Jing Jing Hu: hujj@yyy.com
+Sheng Tian: tiansh@yyy.com
+Samuel A. Mcintyre: mcintyre@us.jcn.com
+Hai Bin Dai: daihb@yyy.com
+Davis Neable: davisneable@ca.jcn.com
+Xiu Yi Du: xiuyidu@yyy.com
+Dong Wang: wdbjcdl@yyy.com
+Terry LM Chang: lmterry@tw.jcn.com
+Xiao Hui XH Zhang: zxiaohui@yyy.com
+Mike Erickson: emike@ca.jcn.com
+Dale Mervyn: djmervyn@ca.jcn.com
+Poon Kwan Leung: pkleung@ca.jcn.com
+Erika Ferguson: efergus@ca.jcn.com
+Jin Jun Su: sujj@yyy.com
+Louis S. Mau: louismau@us.jcn.com
+Zheng Bi: bizheng@yyy.com
+Caroline Daughtrey: cdaughtr@us.jcn.com
+Da Wei Wang: wangdaw@yyy.com
+Adam R. Clarke: arclarke@us.jcn.com
+Jun Tao Liu: liujunt@yyy.com
+Stephan Hesmer: stephan.hesmer@de.jcn.com
+Thomas Chou: choukl@tw.jcn.com
+Kris Vishwanathan: v2kris@us.jcn.com
+Yu Qiang Yang: yuqiangy@yyy.com
+JENNIFER E. KING: king@us.jcn.com
+Jonathan J. Lidaka: jjlidaka@us.jcn.com
+Prasad Kashyap: pkashyap@us.jcn.com
+David Winter: DAWINTER@de.jcn.com
+Yu SHCDL Zhou: zshcdl@yyy.com
+PHYLLIS KEANE: keanep@us.jcn.com
+Jingkang: jingkang@yyy.com
+ROBERT S. BROOKS: rsbrooks@us.jcn.com
+Qiao Yun Sun: sunqy@yyy.com
+Joscha Feth: joscha.feth@de.jcn.com
+Jing Liu: shliuj@yyy.com
+Dong D. Chen: yanma@yyy.com
+Da Guang Zhu: zhudg@yyy.com
+Howard S. Krovetz: hkrovetz@us.jcn.com
+Richard Johnson: rj1@us.jcn.com
+Juergen Schaeck: JSCHAECK@de.jcn.com
+Jing Kj Kang: jingkang@yyy.com
+JONATHAN J. LIDAKA: jjlidaka@us.jcn.com
+Chris Collins: dchrisc@us.jcn.com
+Jing KJ Kang: jingkang@yyy.com
+Joscha Falc Feth: joscha.feth@de.jcn.com
+Xue Feng Han: zshcdl@yyy.com
+Rajesh A. Kartha: kartha@us.jcn.com
+Mark D. Gilmore: mgilmore@us.jcn.com
+Li Yao: yaoliyl@yyy.com
+Michael Burati: mburati@us.jcn.com
+Tian E. Yang: yangte@yyy.com
+Jun Wang: wjwangj@yyy.com
+Spike Chang: spikec@tw.jcn.com
+Ramiah Tin: rtin@ca.jcn.com
+Yan Fang Huang: yanfangh@yyy.com
+Colin Kennedy: KENNEDYC@ie.jcn.com
+Andrej Doba: andrejdoba@ie.jcn.com
+Ingo Schuster: Ingo.Schuster@de.jcn.com
+Scott Chapman: scottchapman@us.jcn.com
+Ya Juan Yang: yajuany@yyy.com
+Yan Ma: yanma@yyy.com
+David Osofsky: david_osofsky@us.jcn.com
+Jon M. Harris: jmharris@us.jcn.com
+Peng Yu Zhang: zhangpy@yyy.com
+Charles M. Seaman: seaman@us.jcn.com
+Tong L. Li: litong01@us.jcn.com
+Anna G. O'neal: agoneal@us.jcn.com
+Yu Shcdl Zhou: zshcdl@yyy.com
+Laura L. Pomerleau: llpomerl@us.jcn.com
+Stefan Behl: stefan.behl@de.jcn.com
+ADAM R. COOK: cooka@us.jcn.com
+Chiusm: chiusm@us.jcn.com
+Jia Feng: jiafeng@yyy.com
+Jennifer E. King: king@us.jcn.com
+Zheng Sd Wang: wangzsd@yyy.com
+Nicole Carrier: ncarrier@us.jcn.com
+Xiao Feng Liu: liuxiaof@yyy.com
+Ming Xue: xueming@yyy.com
+Jmharris: jmharris@us.jcn.com
+Scott M. Consolatti: sconso@us.jcn.com
+Rui Shen: xxx@yyy.com
+Fu Cheng: chengfbj@yyy.com
+Andree Proulx: aiproulx@ca.jcn.com
+Li Xu: lixu@us.jcn.com
+Ye Huo: yaoliyl@yyy.com
+Kartha: kartha@us.jcn.com
+Lei Yu: yullei@yyy.com
+Terry Lm Chang: lmterry@tw.jcn.com
+Xia Liu: liuxiabj@yyy.com
+Xiao Hui Xh Zhang: zxiaohui@yyy.com
+Wei Shi: shiwcsdl@yyy.com
+Tian E Yang: yangte@yyy.com
+Ya Wen Zhao: zhaoyaw@yyy.com
+Hong Bing Zhang: zhbing@yyy.com
+FENIL SHAH: fenils@us.jcn.com
+Kevin Bergin: BERGINKE@ie.jcn.com
+Christoph Denninger: CDENNING@de.jcn.com
+KEVIN J. SMITH: smithkj@us.jcn.com
+Joel B. Allen: allenbj@us.jcn.com
+Eric Fu: ericfu@ca.jcn.com
+John P. Kelsey: pkelsey@us.jcn.com
+Daniel Schulz: Daniel.Schulz@de.jcn.com
+Zi He Jia: jiazihe@yyy.com
+John J. Boezeman: boezeman@us.jcn.com
+Jeffrey R. Hoy: jeffhoy@us.jcn.com
+Konrad Kolosowski: konradk@ca.jcn.com
+Yu Fu: fuyush@yyy.com
+Ryan E. Smith: rysmith@us.jcn.com
+Oliver Rau: oliver.rau@de.jcn.com
+Xiang Wu: xwucdl@yyy.com
+Cale Vardy: cvardy@ca.jcn.com
+Suet M. Chiu: chiusm@us.jcn.com
+Louismau: louismau@us.jcn.com
+Murali M Duvvuru: murali.duvvuru@in.jcn.com
+Travis2: travis2@us.jcn.com
+Scott Johnson: scottjoh@us.jcn.com
